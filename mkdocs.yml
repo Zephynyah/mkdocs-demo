@@ -1,0 +1,15 @@
+site_name: My Site Name
+
+theme:
+  name: material
+  palette:
+    primary: white
+
+docs_dir: ./docs
+
+nav:
+    - Home: index.md
+
+    # Use extra CSS to customize styles, based on theme
+extra_css:
+  - 'css/extra-material-theme.css'
